@@ -34,16 +34,22 @@ nav li a{
     color: black;
 
 }
+.text-center{
+    text-align: center;
+}
 
 
 .btn-primary{
     background-color: #4E47FF;
+    text-align: center;
     font-weight: bold;
     color: white;
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+       
 }
+
 
 nav ul{
     display: flex;
@@ -90,6 +96,42 @@ main{
     justify-content: space-around;
 }
 .user-title{
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 80px;
+
+}
+.feedback-container{
+    display: flex;
+    gap: 30px;
+
+}
+.feedback{
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 3px 3px 3px 3px cadetblue;
+    /* width: 300px; */
+
+}
+.users say{
+    padding: 30px;
+}
+/* footer style */
+footer{
+    display: flex;
+    padding: 130px 220px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"],footer textarea
+{
+     background-color: white;
+     display: block;
+     padding: 10px 10px;
+     margin-bottom: 26px;
+     border-radius: 6px;
+     width: 100%;
+
 
 }
