@@ -29,6 +29,11 @@ nav li a{
     background-image: url('../Assets/Hero-bg.png');
 }
 
+/* shared style */
+.secondary-bg{
+    color: black;
+
+}
 
 
 .btn-primary{
@@ -39,9 +44,7 @@ nav li a{
     border-radius: 10px;
     border: none;
 }
-.white{
- /* color: aliceblue; */
-}
+
 nav ul{
     display: flex;
 }
@@ -64,4 +67,29 @@ height: 328px;
     justify-content: space-between;
     margin: 50px 200px;
     
+}
+.section-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.users .secondary-bg{
+     border-radius: 10px;
+     padding: 130px 150px;
+     text-align: center;
+     margin-top: 130px;
+}
+.about-users{
+    display: flex;
+    justify-content: space-around;
+}
+.user-title{
+    font-weight: bold;
+
 }
